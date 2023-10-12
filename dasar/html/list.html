@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat List</title>
+</head>
+<body>
+
+
+    <!-- belajar menggunakan unordered list di HTML -->
+
+    <h1>Unordered list &#40;Daftar Tidak Terurut&#41;</h1>
+
+    <!-- membuat unordered list digunakan untuk membuat daftar item yang tidak memiliki urutan tertentu. -->
+    <!-- untuk membuat unordered list dengan menggunakan elemen HTML <ul>, dan setiap item dalam daftar didefinisikan dengan elemen <li>.   -->
+    
+    <p>Contoh HTML untuk unordered list:</p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <p>Secara default simbol lingkaran unordered list dapat digantikan dengan atribut <code>type</code>.</p>
+    <p>berikut yang bisa diberikan untuk nilai atribut <code>type</code>:</p>
+
+    <ul>
+        <li><code>disc</code> &#40;default&#41; daftar dengan tanda penomoran berbentuk lingkaran</li>
+        <li><code>square</code> daftar dengan tanda penomoran berbentuk persegi</li>
+        <li><code>circle</code> daftar dengan tanda penomoran berbentuk lingkaran yang lebih besar daripada "disc"</li>
+        <li><code>none</code> daftar tanpa tanda penomoran atau bullets</li>
+    </ul>
+
+    <p>Silahkan lihat pada contoh sederhana dibawah:</p>
+
+    <!-- Unordered list dengan tanda penomoran berbentuk lingkaran (default) -->
+    <h4>Unordered list Disc</h4>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <!-- Unordered list dengan tanda penomoran berbentuk persegi -->
+    <h4>Unordered list square</h4>
+    <ul type="square">
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+    </ul>
+
+    <!-- Unordered list dengan tanda penomoran berbentuk lingkaran yang lebih besar daripada "disc" -->
+    <h4>Unordered list circle</h4>
+    <ul type="circle">
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+    </ul>
+
+    <!-- Unordered list tanpa tanda penomoran -->
+    <h4>Unorderes none</h4>
+    <ul type="none">
+        <li>Item X</li>
+        <li>Item Y</li>
+        <li>Item Z</li>
+    </ul>
+
+    Selain menggunakan atribut <code>type</code> seperti contoh diatas, kita dapat menggunakan gambar <code>style gambar</code> yang dilakukan dengan menggunakan style css.
+
+    <h4>Unordered list Style Gambar Kali Linux</h4>
+    <ul style="list-style-image: url('https://www.kali.org/images/favicon.png');">
+        <li>Download</li>
+        <li>Kali Tools</li>
+        <li>Kali Docs</li>
+    </ul>
+
+
+    <!-- belajar menggunakan ordered list di HTML -->
+
+
+
+    <h1>Ordered List &#40;Daftar Terurut&#41;</h1>
+    <!-- digunakan untuk membuat daftar item yang memiliki urutan tertentu, biasanya dengan menggunakan angka atau huruf. -->
+    <!-- untuk membuat ordered list dengan menggunakan elemen HTML <ol>, dan seperti unordered list, setiap item dalam daftar didefinisikan dengan elemen <li>.  -->
+        <p>Contoh HTML untuk ordered list:</p>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+        <p>untuk membuat seperti <code>a</code>, <code>b</code>, <code>c</code>
+            atau angka romawi seperti <code>I</code>, <code>II</code>, <code>III</code>. Diperlukan untuk menggunakan atribut <code>type</code> yang diletakkan pada tag <code>ol</code></p>
+        <p>Silahkan lihat pada contoh sederhana dibawah:</p>
+
+        <h3>List dengan type alfabet</h3>
+    <ol type='a'>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <h3>List dengan type alfabet kapital (huruf besar)</h3>
+    <ol type='A'>
+        <li>Item 5</li>
+        <li>Item 6</li>
+        <li>Item 7</li>
+    </ol>
+    <h3>List dengan type romawi</h3>
+    <ol type='i'>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+    </ol>
+    <h3>List dengan type romawi kapital</h3>
+    <ol type='I'>
+        <li>Item D</li>
+        <li>Item E</li>
+        <li>Item F</li>
+    </ol>
+
+    <!-- belajar menggunakan description list di HTML -->
+    <h2>Description List di HTML</h2>
+
+
+
+    <p>Description List dalam HTML digunakan untuk menyajikan definisi atau deskripsi dari sebuah kata kunci atau istilah. Description List terdiri dari dua bagian: istilah (term) dan deskripsi (description). Istilah ditempatkan dalam elemen &#60;dt&#62; (Definition Term), sedangkan deskripsi ditempatkan dalam elemen &#60;dd&#62; (Definition Description).
+    </p>
+
+    <p>Terkait dengan Description List di HTML, ada tiga elemen HTML yang digunakan:</p>
+
+
+    <ol>
+        <li><p>&#60;dl&#62; (Definition List): Elemen &#60;dl&#62; digunakan untuk membungkus seluruh Description List. Itu adalah elemen utama yang mengelilingi semua pasangan istilah dan deskripsi dalam list.</p></li>
+        <li><p>&#60;dt&#62; (Definition Term): Elemen &#60;dt&#62; digunakan untuk mendefinisikan istilah atau kata kunci yang akan dijelaskan atau didefinisikan dalam list. Ini biasanya ditempatkan diikuti oleh elemen &#60;dd&#62;.</p></li>
+        <li><p>&#60;dd&#62; (Definition Description): Elemen &#60;dd&#62; digunakan untuk memberikan deskripsi atau definisi dari istilah yang didefinisikan dalam elemen &#60;dt&#62;. Elemen &#60;dd&#62; biasanya mengikuti elemen &#60;dt&#62; dan berisi penjelasan atau definisi tersebut.</p></li>
+    </ol>
+    &#60;dd&#62;
+</body>
+</html>
