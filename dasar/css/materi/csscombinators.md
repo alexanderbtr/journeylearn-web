@@ -11,7 +11,7 @@ Ini akan memilih semua elemen <p> yang berada dalam elemen <div> dan memberikan 
 *Child Selector (>):
 Combinator ini digunakan untuk memilih elemen yang adalah anak langsung dari elemen lain.
 
-Contoh: ul > li {
+    Contoh: ul > li {
     list-style-type: square; }
 
 Ini akan memilih semua elemen <li> yang adalah anak langsung dari elemen <ul> dan memberikan mereka gaya bullet berbentuk kotak.
