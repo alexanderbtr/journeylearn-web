@@ -1,4 +1,4 @@
-Selector adalah bagian penting dalam bahasa CSS (Cascading Style Sheets) yang digunakan untuk memilih elemen HTML yang akan diberi gaya. Berikut adalah penjelasan singkat tentang tiga jenis selector dasar:
+Selector adalah bagian penting dalam bahasa CSS (Cascading Style Sheets) yang digunakan untuk memilih elemen HTML yang akan diberi gaya. Berikut ini adalah penjelasan singkat tentang tiga jenis selector dasar:
 
 * ID Selector:
         Penulisan: Diawali dengan tanda pagar (#), diikuti oleh nama ID elemen yang ingin dipilih.
