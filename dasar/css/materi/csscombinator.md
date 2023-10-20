@@ -11,18 +11,21 @@ Ini akan memilih semua elemen <p> yang berada dalam elemen <div> dan memberikan 
 *Child Selector (>):
 Combinator ini digunakan untuk memilih elemen yang adalah anak langsung dari elemen lain.
 
-    Contoh: ul > li { list-style-stype: square; }
+Contoh: ul > li {
+    list-style-type: square; }
 
 Ini akan memilih semua elemen <li> yang adalah anak langsung dari elemen <ul> dan memberikan mereka gaya bullet berbentuk kotak.
 
 *Adjacent Sibling Selector (+):
 Combinator ini digunakan untuk memilih elemen yang adalah saudara sejajar dan langsung setelah elemen lain.
 
-    Contoh: h2 + p { font-weight: bold; }
+Contoh: h2 + p {
+    font-weight: bold; }
 
 Ini akan memilih semua elemen <p> yang berada langsung setelah elemen <h2> dan memberikan mereka tebal (bold).
 
 *General Sibling Selector (~):
 Combinator ini digunakan untuk memilih elemen-elemen yang adalah saudara sejajar dari elemen lain, tanpa memperhatikan apakah mereka berada langsung setelah elemen tersebut.
 
-    Contoh: h2 ~ p { font-style: italic; }
+Contoh: h2 ~ p {
+    font-style: italic; }
