@@ -6,10 +6,14 @@ CSS Combinators adalah bagian dari Cascading Style Sheets (CSS) yang digunakan u
 
     Contoh: div p {
     color: blue; }
-  
 
 * Child Selector (>):
 Combinator ini digunakan untuk memilih elemen yang adalah anak langsung dari elemen lain.
+
+ul > li {
+    list-style-type: square;
+}
+
 
 * Adjacent Sibling Selector (+):
 Combinator ini digunakan untuk memilih elemen yang adalah saudara sejajar dan langsung setelah elemen lain.
