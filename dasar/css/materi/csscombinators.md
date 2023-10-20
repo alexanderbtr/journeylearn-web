@@ -17,11 +17,11 @@ Combinator ini digunakan untuk memilih elemen yang adalah anak langsung dari ele
 * Adjacent Sibling Selector (+):
 Combinator ini digunakan untuk memilih elemen yang adalah saudara sejajar dan langsung setelah elemen lain.
 
- Contoh: h2 + p {
+   Contoh: h2 + p {
     font-weight: bold; }
 
 * General Sibling Selector (~):
 Combinator ini digunakan untuk memilih elemen-elemen yang adalah saudara sejajar dari elemen lain, tanpa memperhatikan apakah mereka berada langsung setelah elemen tersebut.
 
- Contoh: h2 ~ p {
+   Contoh: h2 ~ p {
     font-style: italic; }
