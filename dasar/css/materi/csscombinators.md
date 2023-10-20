@@ -9,6 +9,9 @@ CSS Combinators adalah bagian dari Cascading Style Sheets (CSS) yang digunakan u
 * Descendant Selector (Whitespace):
 Combinator ini menggunakan tanda spasi (whitespace) untuk memilih elemen yang merupakan keturunan (nested) dari elemen lain.
 
+    Contoh: div p {
+    color: blue; }
+  
 
 * Child Selector (>):
 Combinator ini digunakan untuk memilih elemen yang adalah anak langsung dari elemen lain.
