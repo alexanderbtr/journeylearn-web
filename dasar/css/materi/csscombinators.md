@@ -10,14 +10,18 @@ CSS Combinators adalah bagian dari Cascading Style Sheets (CSS) yang digunakan u
 * Child Selector (>):
 Combinator ini digunakan untuk memilih elemen yang adalah anak langsung dari elemen lain.
 
-ul > li {
-    list-style-type: square;
-}
+    Contoh: dul > li {
+    list-style-type: square; }
 
 
 * Adjacent Sibling Selector (+):
 Combinator ini digunakan untuk memilih elemen yang adalah saudara sejajar dan langsung setelah elemen lain.
 
+ Contoh: h2 + p {
+    font-weight: bold; }
+
 * General Sibling Selector (~):
 Combinator ini digunakan untuk memilih elemen-elemen yang adalah saudara sejajar dari elemen lain, tanpa memperhatikan apakah mereka berada langsung setelah elemen tersebut.
 
+ Contoh: h2 ~ p {
+    font-style: italic; }
