@@ -5,7 +5,7 @@ Pseudo-class digunakan untuk mengubah gaya elemen HTML berdasarkan keadaan atau 
 
        Contoh: selector:pseudo-class { property: value;}
 
-Beberapa contoh pseudo-class yang umum digunakan adalah:
+   Beberapa contoh pseudo-class yang umum digunakan adalah:
 *   :hover: Mengubah gaya saat kursor berada di atas elemen.
 *   :active: Mengubah gaya saat elemen sedang aktif, misalnya saat tombol ditekan.
 *   :focus: Mengubah gaya saat elemen sedang dalam fokus, seperti saat input teks mendapat fokus.
@@ -18,7 +18,7 @@ Pseudo-element digunakan untuk memanipulasi elemen HTML dengan cara menambahkan 
 
         Contoh: selector::pseudo-element { property: value;}
 
-Beberapa contoh pseudo-element yang umum digunakan adalah:
+   Beberapa contoh pseudo-element yang umum digunakan adalah:
 
 *   ::before: Menambahkan isi sebelum elemen yang dipilih.
 *   ::after: Menambahkan isi setelah elemen yang dipilih.
