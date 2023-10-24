@@ -27,6 +27,6 @@ Combinator ini digunakan untuk memilih elemen-elemen yang adalah saudara sejajar
     font-style: italic; }
 
 Referensi artikel: 
-*https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator
-*https://www.w3schools.com/css/css_combinators.asp
+* https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator
+* https://www.w3schools.com/css/css_combinators.asp
 
