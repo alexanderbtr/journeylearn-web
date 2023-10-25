@@ -24,18 +24,28 @@
 
  6. Line Height (Tinggi Baris):
    * line-height: Mengatur tinggi baris (spasi antara baris) untuk meningkatkan keterbacaan.
+      Contoh: selector { text-shadow: 2px 2px 4px #000000;}
 
  7. Letter Spacing (Spasi Karakter):
    * letter-spacing: Mengatur spasi antara karakter dalam teks.
+      Contoh: selector { text-shadow: 2px 2px 4px #000000;}
 
  8. Text Indentation (Indentasi Teks):
    * text-indent: Mengatur jarak awal (indentasi) untuk paragraf atau elemen teks lainnya.
+      Contoh: selector { text-shadow: 2px 2px 4px #000000;}
 
  9. Text Overflow (Overflow Teks):
    * text-overflow: Mengatur bagaimana teks yang melebihi kotak elemen ditampilkan, seperti "ellipsis" (tanda tiga titik) untuk teks terpotong.
+      Contoh: selector {
+         twhite-space: nowrap;
+         overflow: hidden;
+         text-overflow: ellipsis;
+         }
 
  10. Word Spacing (Spasi Kata):
    * word-spacing: Mengatur spasi antara kata dalam teks.
+      Contoh: selector { word-spacing: 5px;}
 
  11. Text Shadow (Bayangan Teks):
    * text-shadow: Menambahkan bayangan atau efek visual pada teks.
+      Contoh: selector { text-shadow: 2px 2px 4px #000000;}
