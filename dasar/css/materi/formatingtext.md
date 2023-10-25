@@ -52,7 +52,7 @@
                }
 
  10. Word Spacing (Spasi Kata):
-    * word-spacing: Mengatur spasi antara kata dalam teks.
+     * word-spacing: Mengatur spasi antara kata dalam teks.
       Contoh: selector { word-spacing: 5px;}
 
  11. Text Shadow (Bayangan Teks):
