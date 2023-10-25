@@ -56,6 +56,6 @@
       Contoh: selector { word-spacing: 5px;}
 
  11. Text Shadow (Bayangan Teks):
-    * text-shadow: Menambahkan bayangan atau efek visual pada teks.
+     * text-shadow: Menambahkan bayangan atau efek visual pada teks.
        Contoh: selector { text-shadow: 2px 2px 4px #000000;}
      
