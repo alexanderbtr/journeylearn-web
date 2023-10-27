@@ -41,12 +41,78 @@
             word-spacing: 5rem;
             text-align: center;
         }
+
+        #head5,
+        #head6 {
+            background-color: rgba(255, 99, 71, 1);
+            color: #151515;
+            text-indent: 1.3rem;
+        }
+
+        /* child selector */
+        #head7 > span {
+            color: blue;
+            background-color: orange;
+        }
+
+        #head7 p {
+            background-color: green;
+        }
+
+        /* Adjacent Sibling Selector */
+        #modul1 + .lesson {
+            color: red;
+        }
+
+        .lesson1 ~ p {
+            background-color: #3cb371;
+        }
+
+        .pelajaran ~ p {
+            background-color: yellow;
+        }
+
     </style>
 </head>
 <body>
+
+    <!-- class  -->
     <h1 class="head1">This is the heading 1</h1>
     <h2 class="head2">This is the heading 2</h2>
     <h3 class="head3">This is the heading 3</h3>
-    <h3 class="head4">This is the heading 4</h3>
+    <h4 class="head4">This is the heading 4</h4>
+
+    <!-- id  -->
+
+    <h1 id="head5">This is the heading 5</h1>
+    <h2 id="head6">This is the heading 6</h2>
+    <hr>
+    <div id="head7">
+        <h3>This is the heading 7</h3>
+        <p>anak 1</p>
+        <span>anak 2</span>
+        <p>anak 3</p>
+    </div>
+
+
+    <div id="head8">
+        <h4>This is the heading 8</h4>
+    </div>
+
+    <hr>
+
+    <h5>This is the heading 9</h5>
+    <div id="modul1">
+        <h2 class="pelajaran">Dasar-dasar pemrograman</h2>
+        <p>Pelajari dasar-dasar python</p>
+    </div>
+
+    <div class="lesson">
+        <h1 class="lesson1">variabel dan tipe data</h1>
+        <p>cara mendeklarasikan variable dan tipe data dalam python</p>
+    </div>
+    
+
+
 </body>
 </html>
