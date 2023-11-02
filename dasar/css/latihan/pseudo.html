@@ -34,6 +34,28 @@
             color: crimson;
         }
 
+
+        /* Pseudo class selector */
+        li:first-child {
+            background: green;
+        }
+
+        li:last-child {
+            background: blueviolet;
+        }
+
+        /* :first-of-type dan :last-of-type */
+
+        .artikel p:first-of-type {
+            color: blue;
+        }
+
+        .artikel span:last-of-type {
+            color: green;
+        }
+
+        /* UI Pseudo class elector */
+
     </style>
 </head>
 <body>
@@ -44,13 +66,43 @@
             <li><a href="https://www.youtube.com/" class="links3">link 3</a></li>
             <li><a href="https://www.google.com/" class="links4">link 4</li>
             <li><a href="#" class="links5">link 5</a></li>
-
-            <!-- 6-10 -->
-            <li class="links6"><a href="#">link 6</a></li>
-            <li class="links7"><a href="#">link 7</a></li>
-            <li class="links8"><a href="#">link 8</a></li>
-            <li class="links9"><a href="#">link 9</a></li>
-            <li class="links10"><a href="#">link 10</a></li>
         </ul>
+
+        <div>
+            <ul>
+                    <!-- 6-10 -->
+            <li><a href="#">link 6</a></li>
+            <li><a href="#">link 7</a></li>
+            <li><a href="#">link 8</a></li>
+            <li><a href="#">link 9</a></li>
+            <li><a href="#">link 10</a></li>
+            </ul>
+        </div>
+        
+        <div class="artikel">
+            <p>Paragraf 1</p>
+            <p>Paragraf 2</p>
+            <span>Text span urutan ke 3</span>
+            <span>Text span urutan ke 4</span>
+        </div>
+
+        <hr>
+
+        <!-- UI Pseudo class selector -->
+
+        <h4>learn UI Pseudo class selector</h4>
+        <form action="#">
+            <div>
+                <input type="text" disabled value="testing">
+            </div>
+
+            <div>
+                <input type="text" readonly value="testing readonly">
+            </div>
+
+            <div>
+                <input type="text" required value="testing required">
+            </div>
+        </form>
 </body>
 </html>
