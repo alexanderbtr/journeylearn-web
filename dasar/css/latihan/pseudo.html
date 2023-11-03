@@ -55,7 +55,23 @@
         }
 
         /* UI Pseudo class elector */
+        input:disabled {
+            background-color: blueviolet;
+            color: white;
+            text-indent: 0.5rem;
+        }
 
+        input:read-only {
+            width: 150px;
+            font-weight: bold;
+        }
+        
+        input:required {
+            background: green;
+            color: #fff;
+            direction: rtl;
+            text-indent: 0.6rem;
+        }
     </style>
 </head>
 <body>
